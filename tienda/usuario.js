@@ -29,7 +29,7 @@ class UsuarioVIP extends Usuario {
     }
 
     saludo() {
-        return "Hola, soy " + this.nombre + " y soy VIP con membresía " + this.membresia;
+        return "Hola, eres " + this.nombre + " y eres VIP con membresía " + this.membresia;
     }
 
     beneficios() {
